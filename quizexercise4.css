@@ -1,0 +1,151 @@
+body {
+    margin: 0 auto; /* align content to centre */
+    width: 850px;
+    min-height: 800px; /* set minimum height for the page */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #E6E4E3; /* text colour */
+}
+
+#main {
+    min-height: 800px;
+    background-color: #242840;
+    padding-top: 10px;
+    margin: auto;
+
+}
+
+#score {
+    margin: 0 0 3% 0; /* set bottom margin to 3% */
+    text-align: center;
+    font-size: 30px;
+
+}
+    
+
+#container {
+    padding-top: 20px;
+	margin: auto;
+    background-color: #8C42A6;
+
+}
+
+
+h1, h2, h3 {
+    padding-bottom: 3%;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #E6E4E3;
+}
+
+/* Count number of questions */
+#questionCount {
+    margin: 5px;
+    
+}
+/* Current game question */
+.question {
+
+	width: 100%; /* takes the full width of the page */
+    padding: 2% 0; /* top and bottom space */
+    float: left;
+    margin: 1%;
+    text-align: center;
+    font-size: 24px;
+    
+ 
+}
+
+/* Box with answers */
+.boxAnswer {
+	width: 43%; /* width of 43% so they can fit side by side */
+    padding: 2%; /* space between the boxes */
+    float: left; /* set the boxes to align to the left */
+    margin: 1%; /* space outside the boxes */
+    border-radius: 30px; /* make round edged rectangles  */
+    background-color: #533575;
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+
+/* changes mouse cursor to pointer, background and text colour when the mouse is hover the boxes or buttons */
+
+.boxAnswer:hover, #btnStart:hover, #btnNext:hover, #btnBack:hover, .mode:hover, .selected:hover {
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.answerResult {
+	width: 100%;
+    float: left;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+#btnStart, #btnNext, #btnBack {
+  
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    background-color: #8C42A6;
+    transform: translateX(-50%);  /* get half of the element's width and subtract that value with left's value  */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+
+#userText {
+  
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: #533575;
+    transform: translateX(-50%);  /* get half of the element's width and subtract that value with left's value  */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+.mode {
+  
+    position: absolute;
+    top: 43%;
+    left: 46%;
+    background-color: #533575;
+    transform: translateX(-50%);  /* get half of the element's width and subtract that value with left's value  */
+    border: none;
+    padding: 5px 20.5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.selected {
+  
+    position: absolute;
+    top: 43%;
+    left: 54%;
+    background-color: white;
+    transform: translateX(-50%);  /* get half of the element's width and subtract that value with left's value  */
+    border: none;
+    padding: 5px 20.5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+

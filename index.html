@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 4 by Nilson Gaspar</title>
+  <link rel="stylesheet" type="text/css" href="quizexercise4.css">
+
+</head>
+<body>
+<div id="main">
+  <!-- Page title -->
+  <h1>QUIZ - EXERCISE 4</h1>
+
+  <!-- Game score -->
+  <h2>Score <span id="score"></span></h2>
+
+  <!-- Box with answers -->
+  <div id="container">
+    <h2>Question<span id="questionCount"></span></h2>
+    <div class="question"></div>
+    <div class="boxAnswer"></div>
+    <div class="boxAnswer"></div>
+    <div class="boxAnswer"></div>
+    <div class="boxAnswer"></div>
+    <div class="answerResult"></div>
+  </div>
+
+  <!-- Button to start the game -->
+  <button id="btnStart">START</button>
+  <button id="btnNext">START</button>
+  <button id="btnBack">BACK</button>
+  <button class="mode selected">Easy</button>
+  <button class="mode">Hard</button>
+  
+  <!-- Users can type their answer -->
+  <input id="userText" value="" onfocus="this.value=''"> 
+  
+</div>
+<script src="quizexercise4.js"></script>
+</body>
+</html>
+
+
+
